@@ -27,5 +27,7 @@ python main.py --input path/to/image.jpg
 
 # 카드 분류 수행 결과 스냅샷
 
-![alt text](img_readme/image-3.png)
-![alt text](img_readme/image-4.png)
+<p align="center">
+  <img src="img_readme/image-3.png" alt="card-1" width="48%">
+  <img src="img_readme/image-4.png" alt="card-2" width="48%">
+</p>
