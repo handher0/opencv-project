@@ -29,5 +29,5 @@ python main.py --input path/to/image.jpg
 
 <p align="center">
   <img src="img_readme/image-3.png" alt="card-1" width="55%">
-  <img src="img_readme/image-4.png" alt="card-2" width="40%">
+  <img src="img_readme/image-4.png" alt="card-2" width="30%">
 </p>
