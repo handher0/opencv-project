@@ -5,6 +5,8 @@ import cv2
 import sys
 import numpy as np
 
+DEBUG_PREPROCESS = False
+
 COIN_TEMPLATES = {
     10: [],
     50: [],
@@ -461,11 +463,12 @@ def main():
                         0.9, (0, 0, 0), 2, cv2.LINE_AA)
 
             # 전처리 과정 출력 (디버깅용)
-            #cv2.imshow("original", img_resized)
-            #cv2.imshow("CLAHE", clahe_img)
-            #cv2.imshow("Blurred", blurred)
-            #cv2.imshow("Debug Canny Edges", canny_debug)
-            #cv2.imshow("Detection", debug_output_img)
+            if DEBUG_PREPROCESS:
+                cv2.imshow("original", img_resized)
+                cv2.imshow("CLAHE", clahe_img)
+                cv2.imshow("Blurred", blurred)
+                cv2.imshow("Debug Canny Edges", canny_debug)
+                cv2.imshow("Detection", debug_output_img)
             cv2.imshow("Result", output_img)
 
         cv2.waitKey(0)

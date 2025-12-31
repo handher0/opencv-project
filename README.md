@@ -23,3 +23,9 @@ python main.py --input path/to/image.jpg
 ![alt text](img_readme/image.png)
 ![alt text](img_readme/image-1.png)
 ![alt text](img_readme/image-2.png)
+디버깅 과정은 DEBUG_PREPROCESS = TRUE일 때 출력됩니다 (트럼프카드 포함)
+
+# 카드 분류 수행 결과 스냅샷
+
+![alt text](img_readme/image-3.png)
+![alt text](img_readme/image-4.png)
