@@ -28,6 +28,6 @@ python main.py --input path/to/image.jpg
 # 카드 분류 수행 결과 스냅샷
 
 <p align="center">
-  <img src="img_readme/image-3.png" alt="card-1" width="70%">
+  <img src="img_readme/image-3.png" alt="card-1" width="65%">
   <img src="img_readme/image-4.png" alt="card-2" width="30%">
 </p>
